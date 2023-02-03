@@ -15,7 +15,7 @@ function Book() {
 
         <div className="book-container">
 
-        <a href="/Chapter-Breakfast">
+        <a id="chapter-card-a" href="/Chapter-Breakfast">
         <div className="chapter-card">
         <div className='chapter-image'>
         <img id="chapter-image" src={breakfast} alt="breakfast smoothies" />
@@ -24,7 +24,7 @@ function Book() {
         </div>
         </a>
 
-        <a href="/Chapter-Vegetables">
+        <a id="chapter-card-a" href="/Chapter-Vegetables">
         <div className="chapter-card">
         <div className='chapter-image'>
         <img id="chapter-image" src={vegetables} alt="vegetables" />
@@ -33,7 +33,7 @@ function Book() {
         </div>
         </a>
 
-        <a href="/Chapter-Appetizers">
+        <a id="chapter-card-a" href="/Chapter-Appetizers">
         <div className="chapter-card">
         <div className='chapter-image'>
         <img id="chapter-image" src={appetizers} alt="appetizers" />

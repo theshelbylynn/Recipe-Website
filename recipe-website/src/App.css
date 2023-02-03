@@ -480,16 +480,21 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 15em;
-  height: 18em;
+  height: 19em;
   margin: 2em;
-  background-color: #000;
+  /* background-color: #000; */
+  border: 2px solid #000;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
+#chapter-card-a {
+  text-decoration: none;
+}
+
 .chapter-card h4 {
-  color: #fff;
+  color: #000;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   margin: 1.5em 0;
 }
@@ -502,6 +507,7 @@ body {
 
 #chapter-image {
   width: 80%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .arrows {
@@ -575,7 +581,7 @@ body {
   text-align: center;
   border: 1px solid #000;
   border-radius: 3em;
-  margin: .2em;
+  margin-bottom: .5em;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
@@ -609,6 +615,176 @@ body {
 }
 
 /* End of Chapter Pages */
+
+
+
+/* Tutorial Page */
+
+.tutorial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.tutorial-container h2 {
+  font-size: 40px;
+}
+
+.tutorial-video {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: .7em .3em;
+  border: 2px solid #000;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin: 1em;
+}
+
+#tut-video {
+  display: flex;
+  width: 30em;
+  height: 20em;
+}
+
+.tutorial-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#tutorial-a {
+  text-decoration: none;
+  color: #000;
+}
+
+.tutorial-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 12em;
+  height: 16em;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  margin: 2em;
+  text-align: center;
+  padding: .4em;
+}
+
+.tut-img {
+  width: 90%;
+  margin-top: .5em;
+}
+
+.tutorial-item h4 {
+font-size: 20px;
+width: 100%;
+margin-top: .6em;
+}
+
+/* Direction Sections */
+
+.directions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20em;
+  border-top: 1px solid #000;
+  text-align: center;
+  margin-top: 4em;
+  border-bottom: 1px solid #000;
+}
+
+.direction-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  overflow: auto;
+
+}
+
+.section-header {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.section-header h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.section-header p, h4 {
+  font-size: 30px;
+}
+
+.direction-section p {
+  text-align: left;
+}
+
+#divide-border {
+  border-left: 1px solid #000;
+}
+
+.directions p {
+  width: 65%;
+  line-height: 2em;
+}
+
+.directions h1 {
+  color: #000;
+  text-align: center;
+  font-size: 45px;
+}
+
+/* End of Direction Section */
+
+.tut-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.tut-review-container h1 {
+  font-size: 40px;
+  margin-top: 1.5em;
+}
+
+.tut-review {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.tut-review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+/* Media Queries */
+
+@media (max-width: 965px){
+  .tut-review {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* End of Tutorial Page */
 
 
 

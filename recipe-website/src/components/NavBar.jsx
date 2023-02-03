@@ -14,31 +14,31 @@ function Nav() {
 
         <div className="nav-icon">
          <a id="link" href="/">
-        <img id="icon" src={home} alt="home icon" />
+        <center><img id="icon" src={home} alt="home icon" /></center>
         </a>   
         </div>
 
         <div className="nav-icon">
         <a id="link" href="/">
-        <img id="icon" src={search} alt="search icon" />
+        <center><img id="icon" src={search} alt="search icon" /></center>
         </a>
         </div>
 
         <div className="nav-icon">
         <a id="link" href="/RecipeBook">
-        <img id="icon" src={recipe} alt="recipe book icon" />
+       <center> <img id="icon" src={recipe} alt="recipe book icon" /></center>
         </a>
         </div>
 
         <div className="nav-icon">
         <a id="link" href="/">
-        <img id="icon" src={account} alt="account icon" />
+        <center><img id="icon" src={account} alt="account icon" /></center>
         </a>
         </div>
 
         <div className="nav-icon">
-        <a id="link" href="/">
-        <img id="icon" src={video} alt="video icon" />
+        <a id="link" href="/TutorialPage">
+        <center><img id="icon" src={video} alt="video icon" /></center>
         </a>
         </div>
      
