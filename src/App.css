@@ -130,10 +130,9 @@ body {
   justify-content: center;
   width: 100%;
   height: auto;
-  background-color: #C7F9CC;
-  margin-top: 3em;
+  /* background-color: #C7F9CC; */
+  margin-top: 1em;
   margin-bottom: 2em;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .suggestion-card {
@@ -142,9 +141,10 @@ body {
   align-items: center;
   width: 12.5em;
   height: 15em;
-  background-color: #000;
-  margin: 2em 3.5em;
+  border: 1px solid #E0E0E0;
+  margin: 2em 2em;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  padding: .5em;
 }
 
 #suggest-img {
@@ -153,7 +153,7 @@ body {
 }
 
 .suggest-title {
-  color: #fff;
+  color: #000;
   font-weight: 500;
   font-size: 18px;
   text-align: center;
@@ -400,22 +400,22 @@ body {
   text-align: center;
 }
 
-.review-cta h1 {
-  color: #fff;
-  font-size: 65px;
-  text-align: center;
-}
+  .review-cta h1 {
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+  }
 
-.review-cta button {
-  width: 20em;
-  height: auto;
-  padding: 1em;
-  color: #000;
-  background-color: #fff;
-  border-color: #fff 1px solid;
-  border-radius: 3em;
-  font-size: 20px;
-}
+  .review-cta button {
+    width: 20em;
+    height: auto;
+    padding: 1em;
+    color: #000;
+    background-color: #fff;
+    border-color: #fff 1px solid;
+    border-radius: 3em;
+    font-size: 20px;
+  }
 
 /* Media Queries */
 
@@ -775,6 +775,8 @@ margin-top: .6em;
   height: auto;
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 965px){
@@ -782,6 +784,67 @@ margin-top: .6em;
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media (max-width: 500px) {
+ .directions {
+  flex-wrap: wrap;
+  overflow: auto;
+ }
+
+ .direction-section {
+  width: 100%;
+  height: auto;
+ }
+
+ .tut-review-container {
+  margin-top: 3em;
+ }
+
+ .tutorial-container h2 {
+  text-align: center;
+ }
+
+ #tut-video {
+  width: 18em;
+  height: 10em;
+}
+
+.review {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 18em;
+}
+
+.review img {
+  width: 40%;
+}
+
+.review p {
+  margin: 1.5em 1em;
+}
+
+#social-icon {
+  margin: .5em .5em ;
+}
+
+.review-cta h1 {
+  color: #fff;
+  font-size: 65px;
+  text-align: center;
+}
+
+.review-cta button {
+  width: 10em;
+  height: auto;
+  padding: 1em;
+  color: #000;
+  background-color: #fff;
+  border-color: #fff 1px solid;
+  border-radius: 3em;
+  font-size: 20px;
+}
+
 }
 
 /* End of Tutorial Page */

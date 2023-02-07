@@ -16,7 +16,7 @@ function tutorial3() {
             <h2>Rainbow Panzanella</h2>
             
             <div className="tutorial-video">
-            <iframe id="tut-video" width="640" height="360" src="https://www.youtube.com/embed/HPzeV2t82sY" title="PANZANELLA SALAD | TUSCAN BREAD AND TOMATO SALAD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="tut-video" src="https://www.youtube.com/embed/HPzeV2t82sY" title="PANZANELLA SALAD | TUSCAN BREAD AND TOMATO SALAD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div className='socials'>
@@ -129,6 +129,12 @@ Transfer squash mixture to a platter. Top with beets, blue cheese, and grapefrui
         </div>
             
         </div>
+
+        <div className='review-cta'>
+            <h1>Have you tried this recipe?</h1>
+            <button>Leave a Review</button>
+        </div>
+
 
         </div>
         

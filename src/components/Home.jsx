@@ -22,6 +22,11 @@ function Home() {
        <a href="/ResultPage"><button id="search-button">Search</button></a>
         </div>
 
+        <div className="suggest-title">
+           <h1>Recipe Suggestions</h1>
+           <center><div className="divider"></div></center>
+           </div>
+
         <div className="suggestion-container">
 
         <a id="card-link" href="/Recipe-1">
